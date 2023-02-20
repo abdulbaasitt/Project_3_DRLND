@@ -72,18 +72,24 @@ cd deep-reinforcement-learning/python
 pip install .
 ```
 
-1.	Create an IPython kernel for the drlnd environment. (Skip if you done already)
+4.	Create an IPython kernel for the drlnd environment. (Skip if you done already)
 
 ```
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
-1.	Run Jupyter Notebook
+5.	Run Jupyter Notebook
 
 ```
 jupyter notebook
 ```
 
-1.	Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+6.	Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 
 ![Jupyter Notebbok Kernel Setting](assets/jupyter_notebook_kernel_menu.png)
+
+7. Open Tennis.ipynb to see train the agents
+
+8. You should obtain a plot shown below after training
+
+![Score Plot](assets/score_plt.png)<p align="center"> Picture 3 - MADDPG Agent - Score Plot</p>
