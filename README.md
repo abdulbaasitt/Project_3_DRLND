@@ -92,4 +92,5 @@ jupyter notebook
 
 8. You should obtain a plot shown below after training
 
-![Score Plot](assets/score_plt.png)<p align="center"> Picture 3 - MADDPG Agent - Score Plot</p>
+![Score Plot](assets/score_plt.png)<p align="center"> MADDPG- Score Plot</p>
+
