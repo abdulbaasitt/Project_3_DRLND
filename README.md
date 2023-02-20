@@ -88,7 +88,7 @@ jupyter notebook
 
 ![Jupyter Notebbok Kernel Setting](assets/jupyter_notebook_kernel_menu.png)
 
-7. Open Tennis.ipynb to see train the agents
+7. Open Tennis.ipynb to see the agents training implementation
 
 8. You should obtain a plot shown below after training
 
