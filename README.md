@@ -37,26 +37,53 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 2. Place the file in the DRLND GitHub repository, in the `p3_collab-compet/` folder, and unzip (or decompress) the file. 
 
+3. Open Tennis.ipynb (located in the p3_collab-compet/ folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.
+
+Watch the (silent) [video](https://youtu.be/kxDvrkg8ep0) below to see what kind of output to expect from the notebook (for version 2 of the environment), if everything is working properly!
+
+In the last code cell of the notebook, you'll learn how to design and observe an agent that always selects random actions at each timestep. Your goal in this project is to create an agent that performs much better!
+
+
 ### Instructions
+To setup our project environment to run the code in this repository, follow the instructions below.
 
-Follow the instructions in `Tennis.ipynb` to get started with training your own agent!  
+1.	Clone this repository
 
-### (Optional) Challenge: Soccer Environment
+```
+git clone https://github.com/abdulbaasitt/Project_3_DRLND.git
+```
 
-After you have successfully completed the project, you might like to solve the more difficult **Soccer** environment.
+1.	Create (and activate) a new environment with Python 3.6.
+	-	Linux or Mac:`
+		conda create --name drlnd python=3.6
+		`
+	-	Windows:`
+		conda create --name drlnd python=3.6
+		activate drlnd
+		`
+2.	Follow the instructions in this repository to perform a minimal install of OpenAI gym. (Skip if you done already)
+	-	Next, install the classic control environment group by following the instructions here.
+	-	Then, install the box2d environment group by following the instructions here.
+3.	Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies. (Skip if you done already)
 
-![Soccer][image2]
+```
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+```
 
-In this environment, the goal is to train a team of agents to play soccer.  
+1.	Create an IPython kernel for the drlnd environment. (Skip if you done already)
 
-You can read more about this environment in the ML-Agents GitHub [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#soccer-twos).  To solve this harder task, you'll need to download a new Unity environment.  (**Note**: Udacity students should not submit a project with this new environment.)
+```
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+```
 
-You need only select the environment that matches your operating system:
-- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer_Linux.zip)
-- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer.app.zip)
-- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer_Windows_x86.zip)
-- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer_Windows_x86_64.zip)
+1.	Run Jupyter Notebook
 
-Then, place the file in the `p3_collab-compet/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Soccer.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
+```
+jupyter notebook
+```
 
-(_For AWS_) If you'd like to train the agents on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agents without enabling a virtual screen, but you will be able to train the agents.  (_To watch the agents, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
+1.	Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+
+
