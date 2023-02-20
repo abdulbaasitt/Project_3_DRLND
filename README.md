@@ -39,13 +39,13 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 3. Open Tennis.ipynb (located in the p3_collab-compet/ folder in the DRLND GitHub repository) and follow the instructions to learn how to use the Python API to control the agent.
 
-Watch the (silent) [video](https://youtu.be/kxDvrkg8ep0) below to see what kind of output to expect from the notebook (for version 2 of the environment), if everything is working properly!
+Watch the (silent) [video](https://youtu.be/kxDvrkg8ep0) below to see what kind of output to expect from the notebook, if everything is working properly!
 
 In the last code cell of the notebook, you'll learn how to design and observe an agent that always selects random actions at each timestep. Your goal in this project is to create an agent that performs much better!
 
 
 ### Instructions
-To setup our project environment to run the code in this repository, follow the instructions below.
+To setup the project environment to run the code in this repository, follow the instructions below.
 
 1.	Clone this repository
 
@@ -86,4 +86,4 @@ jupyter notebook
 
 1.	Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 
-
+![Jupyter Notebbok Kernel Setting](assets/jupyter_notebook_kernel_menu.png)
